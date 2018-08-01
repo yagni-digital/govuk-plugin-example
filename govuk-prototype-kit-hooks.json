@@ -1,0 +1,15 @@
+{
+  "assets": [
+    "/a/kitten1.jpg",
+    "/a/kitten2.jpg"
+  ],
+  "stylesheets": [
+    "/b/c/colours.css"
+  ],
+  "scripts": [
+    "/b/c/fun.js"
+  ],
+  "globalAssets": [
+    "/a"
+  ]
+}

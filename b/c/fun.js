@@ -1,1 +1,2 @@
-window.confirm('Are you having fun?')
+window.SHARED_VARIABLE = 'abcdefghij'
+

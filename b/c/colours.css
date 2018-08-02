@@ -1,5 +1,5 @@
 .demo-feature {
-    background: #333 url("/assets/kitten2.jpg") no-repeat center bottom;
+    background: #333 url("../../a/kitten2.jpg") no-repeat center bottom;
     color: white;
     padding: 10px 5px 300px;
     border-radius: 3px;

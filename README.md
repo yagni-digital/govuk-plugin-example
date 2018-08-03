@@ -23,7 +23,7 @@ This is part of a demo of the plugin hooks for GOVUK.
 
 ## Next steps
 
-a) Visit https://github.com/yagni-digital/a-govuk-plugin-example and see how the overrides work, you'll be rewarded with a kitten picture
+a) Visit https://github.com/yagni-digital/a-govuk-plugin-example and see how the overrides work, you'll be rewarded with a kitten picture  
 b) Look into how the paths are used, details below
 
 ### Notes on URLs

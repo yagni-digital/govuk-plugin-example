@@ -17,7 +17,7 @@ This is part of a demo of the plugin hooks for GOVUK.
 {% endblock %}
 
 ```
-3. `npm install --save https://github.com/yagni-digital/z-govuk-plugin-example.git`
+3. `npm install --save https://github.com/yagni-digital/govuk-plugin-example.git`
 4. `npm install && npm start`
 5. Visit http://localhost:3000/playground and see the demo feature, click it to see the JS behaviour that's been added.
 

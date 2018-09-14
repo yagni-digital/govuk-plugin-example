@@ -11,7 +11,7 @@
   "globalAssets": [
     "/a"
   ],
-  "nunjucksDirs": [
+  "nunjucksPaths": [
     "/nunjucks-macros"
   ]
 }

@@ -1,4 +1,4 @@
-# z-govuk-plugin-example
+# govuk-plugin-example
 
 This is part of a demo of the plugin hooks for GOVUK.  
 

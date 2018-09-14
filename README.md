@@ -4,7 +4,7 @@ This is part of a demo of the plugin hooks for GOVUK.
 
 ## Usage
 
-1. Clone https://github.com/yagni-digital/govuk_prototype_kit and `cd govuk_prototype_kit`
+1. Clone https://github.com/hmrc/govuk_prototype_kit, `cd govuk_prototype_kit` and `git checkout extensions`
 2. Create an HTML file as `app/views/playground.html` with contents:
 ```nunjucks
 {% from 'demo-feature/macro.njk' import demoFeature %}

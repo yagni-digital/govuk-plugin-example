@@ -30,8 +30,12 @@ b) Look into how the paths are used, details below
 
 The prototype kit will give URL paths to some of the assets in this project, the attitudes used are:
 
-1. Minimum privalidge - paths are explicitly made public when they're defined in `govuk-prototype-kit-hooks.json`, anything that's not mentioned won't be available.
+1. Minimum privalidge - paths are explicitly made public when they're defined in `govuk-prototype-kit.config.json`, anything that's not mentioned won't be available.
 2. JS/CSS assets are included on a file-by-file basis - there's a JS file which is in this repo but not configured for govuk hooks, it's `b/not-referenced.js` but you won't be able to access that via a URL unless it's mentioned as an asset or script file.
 3. Relative paths are maintained - if a CSS file references an image with a relative path and that image is configured via an assets path the relative path will be maintained.
-4. Clarity of where assets come from - all assets served from your plugin are under the path `/plugin-assets/your-plugin-name` that gives a clear seperation between what comes from plugins and what's core.
+4. Clarity of where assets come from - all assets served from your extension are under the path `/extension-assets/your-extension-name` that gives a clear seperation between what comes from extensions and what's core.
 5. The ability to add to `/assets` path - this is not recommended but is required to support the current version of `hmrc-frontend`, shared assets can be overridden which could be good or bad for your use-case.
+
+## Current Status
+
+There's a proposal raised at https://github.com/alphagov/govuk-design-system-architecture/pull/9/files and the implimentation/code for review at https://github.com/alphagov/govuk-prototype-kit/pull/613
